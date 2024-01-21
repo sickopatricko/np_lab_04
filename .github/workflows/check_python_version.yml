@@ -18,9 +18,8 @@ jobs:
       with:
         python-version: 3.11
 
-    - name: Update pip
-      run: |
-        python -m pip install --upgrade pip
-
     - name: Display Python Version
       run: python --version
+
+    - name: Run Python Script
+      run: python app_zad2.py
